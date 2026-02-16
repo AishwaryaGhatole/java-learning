@@ -10,7 +10,10 @@ public class OddEven {
 
    if(number % 2 == 0){
     System.out.println("The given number is Even !");
-  }else{
+  }else if(number == 0){
+    System.out.println("The given number is Zero !");
+  }
+  else{
      System.out.println("The given number is Odd !");
    }
   }
