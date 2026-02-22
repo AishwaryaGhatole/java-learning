@@ -2,18 +2,18 @@ import java.util.*;
 
 public class Factorial {
   public static void main(String[] args) {
-    int number = getNumber();
+    long number = getNumber();
     factorialCalculator(number);
       
   }
-  public static int getNumber(){
+  public static long getNumber(){
     Scanner input = new Scanner(System.in);
     System.out.print("Input a Number : ");
-    return input.nextInt();
+    return input.nextLong();
   }
-  public static int factorialCalculator(int num){
-    int factorial = 1;
-    int initialValue = 1;
+  public static long factorialCalculator(long num){
+    long factorial = 1;
+    long initialValue = 1;
 
     while(initialValue <= num){
       factorial = factorial * initialValue;
