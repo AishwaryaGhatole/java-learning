@@ -26,6 +26,7 @@ public class GreatestCommonDivisor {
         return gcd;
       }
     }
+    System.out.print("Your Gcd is 1.");
     return gcd;
   }
 
